@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(196, 192, 192);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.card{
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.card input{
+    
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50%;
+
+    margin: 2px auto;
+}
+.card button{
+    width: 20%;
+    margin: 2px auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(196, 192, 192);
+    cursor: pointer;
+}
+
+table{
+    margin: 10px auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 70%;
+
+}
+table th{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    background-color: darkgray;
+}
+
+tbody  td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+   
+}
+
+.botaoEx{
+    background-color: rgb(196, 192, 192);
+    border: 1px solid black;
+    
+    cursor: pointer;
+}
+
+.content{
+    margin-top: 15px;
+}
