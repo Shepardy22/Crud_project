@@ -8,7 +8,7 @@ class Produtos {
         this.editID = null;
     }
 
-    
+    // issue #2
     addProduto() {
 
         let produto = this.lerDados();
