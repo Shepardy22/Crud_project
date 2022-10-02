@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h2>Cadastro de Produtos</h2>
+    </header>
+
+    <div class="title">
+      <h3>Produtos</h3>
+    </div>
+
+    <div class="card">
+      <label>Produto</label>
+      <input
+        id="produto"
+        type="text"
+        placeholder="Digite o nome do produto"
+      /><br />
+      <label>Valor</label>
+      <input id="preco" type="number" placeholder="preço" />
+
+      <div class="botoes">
+        <button onclick="produtos.addProduto()" id="btn1">Adicionar</button>
+        <button onclick="produtos.cancelar()">Cancelar</button>
+      </div>
+
+      <div class="content">
+        <table>
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Produto</th>
+              <th>Valor</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+
+          <tbody id="tbody">
+            <!-- <tr>
+              <td>1</td>
+              <td>Arroz</td>
+              <td>R$ 5,00</td>
+              <td>
+                <button onclick="" class="botaoEdit">Editar</button>
+                <button onclick="" class="botaoEx">Excluir</button>
+              </td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
