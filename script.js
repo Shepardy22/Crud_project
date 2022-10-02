@@ -84,7 +84,7 @@ class Produtos {
             }
     }
     lerDados() {
-        // Lê os dados do produto
+        // issue #3
         let produto = {};
         produto.id = this.id;
         produto.nomeProduto = document.getElementById('produto').value;
